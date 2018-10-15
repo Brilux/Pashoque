@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-section {
+  background: url(../img/header.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: fixed;
+}
+
+.header-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container p {
+  margin-top: 50px;
+  padding-left: 100px;
+  color: #fff;
+}
+
+.header-container a {
+  color: #fff;
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 100px;
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  padding-right: 100px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.main-section-container {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  min-height: 400px;
+}
+
+.patients-container {
+  background-color: #fff;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 20px;
+}
+
+.main-columns {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.columns {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.table-main-blocks {
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.table-blocks {
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.icon {
+  color: black;
+}
+
+.footer-container {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
